@@ -5,15 +5,17 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+for(let i = 0; i < 4; i++){
+    console.log(names[i] + "je")
+}
 
+// om een spatie erin te zetten, om het beter te kunnen lezen
+console.log("")
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
-
-
-
 
 // ==========================================
 // Opdracht 2
@@ -22,13 +24,24 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+for(let i = 0; i < 5; i++) {
+    if (i === 0){
+        console.log(numbers[i] * 2)
+    }
+    else if (i % 2 === 0){
+        console.log(numbers[i] * 2)
+    }
+    else {
+        console.log(numbers[i] * 3)
+    }
+
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 4, 12, 10, 87, 76 ];
-
 
 
 
